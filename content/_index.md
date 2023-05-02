@@ -14,7 +14,7 @@ Hello. This contains limited useful information, so if you actually want to lear
 9. https://pi-thagoras.github.io/the-chicken-pen/
 
 Alternatively, for procrastination or actual learning purposes (weirdo), 
-- [[geo]]
+- [[geometry]]
 - [[number_theory]]
 - [[algebra]]
 - [[combinatorics]]
