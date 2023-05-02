@@ -13,4 +13,4 @@ Hello. This contains limited useful information, so if you actually want to lear
 8. https://nottacoz.github.io/jacaranda/
 9. https://pi-thagoras.github.io/the-chicken-pen/
 
-Alternatively, [[moving_points]]!
+Alternatively, [[geo]]!

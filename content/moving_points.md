@@ -1,6 +1,6 @@
 ---
 title: Moving Points
-enableToc: true
+enableToc: false
 ---
 
 Projective!
