@@ -3,7 +3,7 @@ title: Circle
 enableToc: false
 ---
 
-Hello. This contains limited useful information, so if you actually want to learn go to town:
+Hello. This contains limited useful information, so if you actually want to learn school stuff, go to town:
 1. https://eddietheed.github.io/obsidiannotes-v.3/
 2. https://spicata.github.io
 3. https://shan-mei.github.io/shanmeis-notes/
@@ -13,4 +13,9 @@ Hello. This contains limited useful information, so if you actually want to lear
 8. https://nottacoz.github.io/jacaranda/
 9. https://pi-thagoras.github.io/the-chicken-pen/
 
-Alternatively, [[geo]]!
+Alternatively, for procrastination or actual learning purposes (weirdo), 
+- [[geo]]
+- [[number_theory]]
+- [[algebra]]
+- [[combinatorics]]
+- [[cursed_stuff]]

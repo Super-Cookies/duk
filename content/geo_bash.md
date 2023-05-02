@@ -1,5 +1,5 @@
 ---
-title: Bashing
+title: Geometry bashing
 enableToc: false
 ---
 
