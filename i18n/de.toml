@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 [404_message]
 other = "Hey! Hast du dich verirrt? Diese Seite existiert leider nicht (oder ist privat)."
 
@@ -64,7 +63,7 @@ other = "Inhaltsverzeichnis"
 
 [copyright]
 other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
-=======
+
 [404_message]
 other = "Hey! Hast du dich verirrt? Diese Seite existiert leider nicht (oder ist privat)."
 
@@ -130,4 +129,3 @@ other = "Inhaltsverzeichnis"
 
 [copyright]
 other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
->>>>>>> Stashed changes
