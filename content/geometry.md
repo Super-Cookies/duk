@@ -4,8 +4,9 @@ enableToc: false
 ---
 
 Hi!
-[[moving_points]]
-[[inversion]]
-[[projective]]
-[[op_theorems]]
-[[bash]]
+- [[normal_stuff]]
+- [[moving_points]]
+- [[inversion]]
+- [[projective]]
+- [[op_theorems]]
+- [[bash]]
