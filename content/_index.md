@@ -5,4 +5,4 @@ enableToc: false
 
 Hello.
 
-[moving_points.md]
+[[moving_points.md]]
