@@ -9,7 +9,7 @@
 <script defer src=https://super-cookies.github.io/duk/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js></script>
 <script defer src=https://super-cookies.github.io/duk/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js></script>
 <script defer src=https://super-cookies.github.io/duk/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
-<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://super-cookies.github.io/duk/",fetchData=Promise.all([fetch("https://super-cookies.github.io/duk/indices/linkIndex.296c0a5451c260941346a96195ff574e.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://super-cookies.github.io/duk/indices/contentIndex.717f84d0cbceca3f21f34df864de3d5f.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://super-cookies.github.io/duk",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://super-cookies.github.io/duk",t,[{"/moc":"#057cf2"}],t?{centerForce:1.5,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1.2,scale:1.2}:{centerForce:1.5,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1.2,scale:1.2})}function i(n){const e=n.target,t=e.className.split(" "),s=t.includes("broken"),o=t.includes("internal-link");plausible("Link Click",{props:{href:e.href,broken:s,internal:o,graph:!1}})}const a=document.querySelectorAll("a");for(link of a)link.className.includes("root-title")&&link.addEventListener("click",i,{once:!0})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://super-cookies.github.io/duk/",fetchData=Promise.all([fetch("https://super-cookies.github.io/duk/indices/linkIndex.296c0a5451c260941346a96195ff574e.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://super-cookies.github.io/duk/indices/contentIndex.372b3f911d10cdae2f109078f48df285.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://super-cookies.github.io/duk",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://super-cookies.github.io/duk",t,[{"/moc":"#057cf2"}],t?{centerForce:1.5,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1.2,scale:1.2}:{centerForce:1.5,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1.2,scale:1.2})}function i(n){const e=n.target,t=e.className.split(" "),s=t.includes("broken"),o=t.includes("internal-link");plausible("Link Click",{props:{href:e.href,broken:s,internal:o,graph:!1}})}const a=document.querySelectorAll("a");for(link of a)link.className.includes("root-title")&&link.addEventListener("click",i,{once:!0})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
     import { attachSPARouting } from "https:\/\/super-cookies.github.io\/duk\/js\/router.d6fe6bd821db9ea97f9aeefae814d8e7.min.js"
     attachSPARouting(init, render)
   </script><script defer data-domain=super-cookies.github.io/duk src=https://plausible.io/js/script.js></script>
@@ -23,28 +23,28 @@ satisfy the inequality. For example, I’m sure most of you have seen
 something similar to<br><em>’Find all x so that x + 3 ≥ 12’</em>. The other class of inequalities is
 the main one that appears in olympiads, and the one this handout focuses
 on. These types of questions provide you with two algebraic expressions,
-and require that you prove that one is &lt;,≤,≥, or > than the other.</p><a href=#how-to-manipulate-inequalities><h1 id=how-to-manipulate-inequalities><span class=hanchor arialabel=Anchor># </span>How to manipulate inequalities</h1></a><p>You should probably know how to do this before moving on.</p><ul><li><p><em>a</em> > <em>b</em> and <em>c</em> ≥ <em>d</em> ⟹ <em>a</em> + <em>c</em> > <em>b</em> + <em>d</em></p></li><li><p>If <em>c</em> > 0, then <em>a</em> > <em>b</em> ⟹ <em>a**c</em> > <em>b**c</em></p></li><li><p>And if <em>c</em> &lt; 0, then <em>a</em> > <em>b</em> ⟹ <em>a**c</em> &lt; <em>b**c</em></p></li><li><p>For <em>m</em> > 0 and <em>a</em> > <em>b</em>,
+and require that you prove that one is &lt;,≤,≥, or > than the other.</p><a href=#how-to-manipulate-inequalities><h1 id=how-to-manipulate-inequalities><span class=hanchor arialabel=Anchor># </span>How to manipulate inequalities</h1></a><p>You should probably know how to do this before moving on.</p><ul><li><p><em>a</em> > <em>b</em> and <em>c</em> ≥ <em>d</em> ⟹ <em>a</em> + <em>c</em> > <em>b</em> + <em>d</em></p></li><li><p>If <em>c</em> > 0, then <em>a</em> > <em>b</em> ⟹ <em>ac</em> > <em>bc</em></p></li><li><p>And if <em>c</em> &lt; 0, then <em>a</em> > <em>b</em> ⟹ <em>ac</em> &lt; <em>bc</em></p></li><li><p>For <em>m</em> > 0 and <em>a</em> > <em>b</em>,
 <em>a</em><sup><em>m</em></sup> > <em>b</em><sup><em>m</em></sup>. If <em>m</em> &lt; 0, then
 <em>a</em><sup><em>m</em></sup> &lt; <em>b</em><sup><em>m</em></sup></p></li></ul><a href=#some-fundamental-inequalities><h1 id=some-fundamental-inequalities><span class=hanchor arialabel=Anchor># </span>Some fundamental inequalities</h1></a><p><strong>The trivial inequality:</strong> <em>x</em><sup>2</sup> ≥ 0 for any real <em>x</em>, with
 equality at <em>x</em> = 0.<br>This inequality is the foundation of several more, and something you
 must know for any olympiad. It seems incredibly obvious, but it is also
 quite powerful and can be used to derive a variety of results. For
 example, try the following problem only using the trivial inequality:
-Prove that for all triplets (<em>a</em>,<em>b</em>,<em>c</em>),  we have <em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> ≥ <em>a**b</em> + <em>b**c</em> + <em>a**c</em>
+Prove that for all triplets (<em>a</em>,<em>b</em>,<em>c</em>),  we have <em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> ≥ <em>ab</em> + <em>bc</em> + <em>ac</em>
 The more astute among you might immediately recognise what to do here.
 If you can’t see it yet: don’t worry. It’s not very obvious to people
 who are new to inequalities.<br>We already know that we should be using the trivial inequality in some
 way, so how?<br>Well, let’s see what happens when we rearrange it: we have
-<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> − <em>a**b</em> − <em>a**c</em> − <em>b**c</em>.
+<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> − <em>ab</em> − <em>ac</em> − <em>bc</em>.
 It may remind you of the expansion of (<em>a</em>−<em>b</em>)<sup>2</sup>, but it’s
 off by a factor of 2. So, consider the following
-2<em>a</em><sup>2</sup> + 2<em>b</em><sup>2</sup> + 2<em>c</em><sup>2</sup> − 2<em>a**b</em> − 2<em>a**c</em> − 2<em>b**c</em>,
+2<em>a</em><sup>2</sup> + 2<em>b</em><sup>2</sup> + 2<em>c</em><sup>2</sup> − 2<em>ab</em> − 2<em>ac</em> − 2<em>bc</em>,
 which upon rearranging yields
-<em>a</em><sup>2</sup> − 2<em>a**b</em> + <em>b</em><sup>2</sup> + <em>a</em><sup>2</sup> − 2<em>a**c</em> + <em>c</em><sup>2</sup> + <em>b</em><sup>2</sup> − 2<em>b**c</em> + <em>c</em><sup>2</sup> = (<em>a</em>−<em>b</em>)<sup>2</sup> + (<em>a</em>−<em>c</em>)<sup>2</sup> + (<em>b</em>−<em>c</em>)<sup>2</sup>.
+<em>a</em><sup>2</sup> − 2<em>ab</em> + <em>b</em><sup>2</sup> + <em>a</em><sup>2</sup> − 2<em>ac</em> + <em>c</em><sup>2</sup> + <em>b</em><sup>2</sup> − 2<em>bc</em> + <em>c</em><sup>2</sup> = (<em>a</em>−<em>b</em>)<sup>2</sup> + (<em>a</em>−<em>c</em>)<sup>2</sup> + (<em>b</em>−<em>c</em>)<sup>2</sup>.
 By the trivial inequality, all of these squares must be at least 0, so
 (<em>a</em>−<em>b</em>)<sup>2</sup> + (<em>a</em>−<em>c</em>)<sup>2</sup> + (<em>b</em>−<em>c</em>)<sup>2</sup> ≥ 0.
 Upon dividing this by two, we get the original statement.</p><p>We can now use the trivial inequality to prove a much more powerful
-inequality.<br><strong>The AM-GM inequality:</strong></p><p>$$\text{For any positive reals } a_1, a_2, &mldr;, a_n \text{ we have } \frac{a_1 + a_2 + &mldr; + a_n}{n} \geq \sqrt[n]{a_1a_2\cdots a_n}$$
+inequality.</p><a href=#the-am-gm-inequality><h2 id=the-am-gm-inequality><span class=hanchor arialabel=Anchor># </span><strong>The AM-GM inequality:</strong></h2></a><p>$$\text{For any positive reals } a_1, a_2, &mldr;, a_n \text{ we have } \frac{a_1 + a_2 + &mldr; + a_n}{n} \geq \sqrt[n]{a_1a_2\cdots a_n}$$
 Ok, I lied a bit. While we can use the trivial inequality to prove it
 for all <em>n</em>, the process is rather time-consuming, complicated, and just
 generally annoying to write. We can, however, prove it fairly easy for
@@ -56,7 +56,7 @@ get:
 $$a - 2\sqrt{ab} + b \geq 0$$
 Which is indeed the expansion of $(\sqrt{a} - \sqrt{b})^2$, and so by
 the trivial inequality we are done.</p><p>Let’s try a simple inequality with the power of AM-GM:
-Let <em>a</em>, <em>b</em>, <em>c</em> ≥ 0. Then, prove that (<em>a</em>+<em>b</em>)(<em>a</em>+<em>c</em>)(<em>b</em>+<em>c</em>) ≥ 8<em>a<strong>b</strong>c</em>
+Let <em>a</em>, <em>b</em>, <em>c</em> ≥ 0. Then, prove that (<em>a</em>+<em>b</em>)(<em>a</em>+<em>c</em>)(<em>b</em>+<em>c</em>) ≥ 8<em>abc</em>
 We can immediately see that we want to prove that a product of <strong>sums</strong>
 is less than a <strong>product</strong>. In most of these kinds of problems, AM-GM
 will do you just fine. So, we take a leap of faith and apply AM-GM to
@@ -66,18 +66,17 @@ $$(a+b)(a+c)(b+c) = 8(\frac{a+b}{2})(\frac{a+c}{2})(\frac{b+c}{2}) \geq 8(\sqrt{
 And we’re done. The AM-GM inequality is actually a corollary of a much
 stronger, generalised inequality.</p><p><strong>Warning:</strong> Yes, what you are about to see is very complicated. You
 don’t need to memorise this for AMO or ASC - only the most important
-corollaries are required, which I will discuss after.<br><strong>Power means inequality:</strong></p><p>$$\text{For some positive reals } a_1, a_2,&mldr;,a_n, \text{ define} \vspace{-10pt}$$</p><p>$$M_r = (\frac{a_1^r+a_2^r+&mldr;+a_n^r}{n})^{\frac{1}{r}} \text{ for all non-zero reals } r \text{ and } M_0 = \sqrt[n]{a_1a_2&mldr;a_n}. \vspace{-10pt}$$</p><p>Then, for <em>r</em> > <em>s</em>, <em>M</em><sub><em>r</em></sub> ≥ <em>M</em><sub><em>s</em></sub> with equality if and only if <em>a</em><sub>1</sub> = <em>a</em><sub>2</sub> = &mldr; = <em>a</em><sub><em>n</em></sub></p><p>You might notice that <em>M</em><sub>1</sub> is actually just the AM, and
+corollaries are required, which I will discuss after.</p><a href=#power-means-inequality><h2 id=power-means-inequality><span class=hanchor arialabel=Anchor># </span><strong>Power means inequality:</strong></h2></a><p>$$\text{For some positive reals } a_1, a_2,&mldr;,a_n, \text{ define}$$</p><p>$$M_r = (\frac{a_1^r+a_2^r+&mldr;+a_n^r}{n})^{\frac{1}{r}} \text{ for all non-zero reals } r \text{ and } M_0 = \sqrt[n]{a_1a_2&mldr;a_n}.$$</p><p>Then, for <em>r</em> > <em>s</em>, <em>M</em><sub><em>r</em></sub> ≥ <em>M</em><sub><em>s</em></sub> with equality if and only if <em>a</em><sub>1</sub> = <em>a</em><sub>2</sub> = &mldr; = <em>a</em><sub><em>n</em></sub></p><p>You might notice that <em>M</em><sub>1</sub> is actually just the AM, and
 <em>M</em><sub>0</sub> is just the GM. So, we already have the generalised
 version of AM-GM just from this. But, there are only 4 means that are
 actually relevant.<br><strong>The actually important means: Quadratic - Arithmetic - Geometric -
-Harmonic</strong></p><p>$$\text{Define } QM = M_2, AM = M_1, GM = M_0, HM = M_{-1}. \vspace{-10pt}$$</p><p>$$\text{Then, } M_2 \geq M_1 \geq M_0 \geq M_{-1} \text{ or, more clearly, } \vspace{-5pt}$$</p><p>$$\sqrt{\frac{a_1^2 + a_2^2 + &mldr; + a_n^2}{n}} \geq \frac{a_1 + a_2 + &mldr; + a_n}{n} \geq \sqrt[n]{a_1a_2&mldr;a_n} \geq \frac{n}{\frac{1}{a_1} + \frac{1}{a_2} + &mldr; + \frac{1}{a_n}}$$</p><p>It looks scary, but it’s actually a really powerful tool. Before we move
+Harmonic</strong></p><p>$$\text{Define } QM = M_2, AM = M_1, GM = M_0, HM = M_{-1}. $$</p><p>$$\text{Then, } M_2 \geq M_1 \geq M_0 \geq M_{-1} \text{ or, more clearly, }$$</p><p>$$\sqrt{\frac{a_1^2 + a_2^2 + &mldr; + a_n^2}{n}} \geq \frac{a_1 + a_2 + &mldr; + a_n}{n} \geq \sqrt[n]{a_1a_2&mldr;a_n} \geq \frac{n}{\frac{1}{a_1} + \frac{1}{a_2} + &mldr; + \frac{1}{a_n}}$$</p><p>It looks scary, but it’s actually a really powerful tool. Before we move
 on, see if you can figure out how to prove GM-HM (i.e. the rightmost
 part)! Hint: you’ll have to assume AM-GM is true and use that (I can’t
 be bothered proving AM-GM for all <em>n</em> here, it’s far too long for me to
 care. Just believe that it’s true and it will be - a surprisingly useful
-strategy in olympiads)</p><p>Now, let’s try tackle some problems using the powerful power means
-inequality.
-$$\text{Suppose } x_1, x_2 &mldr; x_n \text{ are positive reals so that } x_1x_2 \cdots x_n = 1. \vspace{-16pt}$$</p><p>$$\text{Then, for } r > s > 0, \text{ we have } x_1^r + x_2^r + &mldr; + x_n^r \geq x_1^s + x_2^s + &mldr; + x_n^s \vspace{5pt}$$</p><p>This is about as close to power means as you can get, specifically
+strategy in olympiads)</p><p>Now, let’s try tackle some problems using the powerful power means inequality.
+$$\text{Suppose } x_1, x_2 &mldr; x_n \text{ are positive reals so that } x_1x_2 \cdots x_n = 1.$$</p><p>$$\text{Then, for } r > s > 0, \text{ we have } x_1^r + x_2^r + &mldr; + x_n^r \geq x_1^s + x_2^s + &mldr; + x_n^s$$</p><p>This is about as close to power means as you can get, specifically
 <em>M</em><sub><em>r</em></sub> and <em>M</em><sub><em>s</em></sub>. Writing this out:</p><p>$$(\frac{x_1^r+x_2^r+&mldr;+x_n^r}{n})^{\frac{1}{r}} \geq (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n})^{\frac{1}{s}}$$
 Which, upon raising both sides to the power of <em>r</em>, rearranges to
 $$\frac{x_1^r + x_2^r &mldr; + x_n^r}{n} \geq (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n})^{\frac{r}{s}} = (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n}) \cdot (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n})^{\frac{r}{s}-1}$$
@@ -87,15 +86,14 @@ $$\frac{x_1^s + x_2^s + &mldr; + x_n^s}{n} \geq \sqrt[n]{x_1^sx_2^s&mldr;x_n^s} 
 $$\text{So, } \frac{x_1^r + x_2^r + &mldr; + x_n^r}{n} \geq (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n}) \cdot (\frac{x_1^s+x_2^s+&mldr;+x_n^s}{n})^{\frac{r}{s}-1} \geq \frac{x_1^s+x_2^s+&mldr;+x_n^s}{n}$$
 And multiplying by <em>n</em> yields the desired inequality. This inequality is
 also quite useful in it’s own right, so it’s definitely worth keeping in
-mind.</p><p><strong>Cauchy-Schwarz:</strong> Another powerful inequality.
-$$\text{For two sequences of real numbers } \{ x_1, x_2, &mldr;, x_n\} \text{ and } \{ y_1, y_2, &mldr;, y_n\}, \text{ we have } \vspace{-5pt}$$
-$$(x_1^2 + x_2^2 + &mldr; + x_n^2)(y_1^2 + y_2^2 + &mldr; + y_n^2) \geq (x_1y_1 + x_2y_2 + &mldr; + x_ny_n)^2 \vspace{-1pt}$$
-with equality if and only if there exists some constant <em>c</em> such that <em>y</em><sub><em>i</em></sub> = <em>c**x</em><sub><em>i</em></sub> for all <em>i</em>.
+mind.</p><a href=#cauchy-schwarz-another-powerful-inequality><h2 id=cauchy-schwarz-another-powerful-inequality><span class=hanchor arialabel=Anchor># </span><strong>Cauchy-Schwarz:</strong> Another powerful inequality.</h2></a><p>$$\text{For two sequences of real numbers } \{ x_1, x_2, &mldr;, x_n\} \text{ and } \{ y_1, y_2, &mldr;, y_n\}, \text{ we have }$$
+$$(x_1^2 + x_2^2 + &mldr; + x_n^2)(y_1^2 + y_2^2 + &mldr; + y_n^2) \geq (x_1y_1 + x_2y_2 + &mldr; + x_ny_n)^2 $$
+with equality if and only if there exists some constant <em>c</em> such that <em>y</em><sub><em>i</em></sub> = <em>cx</em><sub><em>i</em></sub> for all <em>i</em>.
 Cauchy-Schwarz is quite a powerful inequality, especially when it comes
 to dealing with squares or square roots. As the holy grail of
 mathematics, <em>Problem Solving Tactics</em>, says:
-$$\textit{If there are squares or square roots, try Cauchy-Schwarz.} \vspace{-10pt}$$
-$$\textit{If there are products or fractions, try Cauchy-Schwarz.} \vspace{-6pt}$$
+$$\textit{If there are squares or square roots, try Cauchy-Schwarz.}$$
+$$\textit{If there are products or fractions, try Cauchy-Schwarz.}$$
 <em>If all else fails, try Cauchy-Schwarz.</em>
 So, with the power of Cauchy-Schwarz on our side, let’s try solve an
 problem from a while back:
@@ -108,8 +106,7 @@ Which is very Cauchy looking. Indeed, applying Cauchy-Schwarz to the
 sequences $\{\sqrt{x_1}, \sqrt{x_2}, &mldr;, \sqrt{x_n}\}$ and
 $\{ \frac{1}{\sqrt{x_1}}, \frac{1}{\sqrt{x_2}}, &mldr;, \frac{1}{\sqrt{x_n}}\}$
 yields
-$$(x_1 + x_2 + &mldr; + x_n)(\frac{1}{x_1} + \frac{1}{x_2} + &mldr; + \frac{1}{x_n}) \geq (\frac{\sqrt{x_1}}{\sqrt{x_1}} + \frac{\sqrt{x_2}}{\sqrt{x_2}} + &mldr; + \frac{\sqrt{x_n}}{\sqrt{x_n}})^2 = n^2$$</p><p><strong>Rearrangment inequality:</strong> This is quite cool.
-$$\text{If } a_1 \geq a_2 \geq &mldr; \geq a_n \text{ and } b_1 \geq b_2 \geq &mldr; \geq b_n \text{ are any two sequences of reals,} \vspace{-10pt}$$
+$$(x_1 + x_2 + &mldr; + x_n)(\frac{1}{x_1} + \frac{1}{x_2} + &mldr; + \frac{1}{x_n}) \geq (\frac{\sqrt{x_1}}{\sqrt{x_1}} + \frac{\sqrt{x_2}}{\sqrt{x_2}} + &mldr; + \frac{\sqrt{x_n}}{\sqrt{x_n}})^2 = n^2$$</p><a href=#rearrangment-inequality-this-is-quite-cool><h2 id=rearrangment-inequality-this-is-quite-cool><span class=hanchor arialabel=Anchor># </span><strong>Rearrangment inequality:</strong> This is quite cool.</h2></a><p>$$\text{If } a_1 \geq a_2 \geq &mldr; \geq a_n \text{ and } b_1 \geq b_2 \geq &mldr; \geq b_n \text{ are any two sequences of reals,}$$
 then for any permutation <em>β</em><sub>1</sub>, <em>β</em><sub>2</sub>, &mldr;, <em>β</em><sub><em>n</em></sub> of <em>b</em><sub>1</sub>, <em>b</em><sub>2</sub>, &mldr;, <em>b</em><sub><em>n</em></sub> we have the following inequality:
 <em>a</em><sub>1</sub><em>b</em><sub>2</sub> + <em>a</em><sub>2</sub><em>b</em><sub>2</sub> + &mldr; + <em>a</em><sub><em>n</em></sub><em>b</em><sub><em>n</em></sub> ≥ <em>a</em><sub>1</sub><em>β</em><sub>1</sub> + <em>a</em><sub>2</sub><em>β</em><sub>2</sub> + &mldr; + <em>a</em><sub><em>n</em></sub><em>β</em><sub><em>n</em></sub> ≥ <em>a</em><sub>1</sub><em>b</em><sub><em>n</em></sub> + <em>a</em><sub>2</sub><em>b</em><sub><em>n</em> − 1</sub> + &mldr; + <em>a</em><sub><em>n</em></sub><em>b</em><sub>1</sub></p><p>It looks a bit complicated, so you can essentially think of it as saying
 that the product of two sequences is maximised when the biggest ones are
@@ -117,12 +114,12 @@ paired up, and minimised when the biggest and smallest ones are paired
 up. Let’s try a problem using this.
 For positive reals, prove that <em>a</em><sup><em>a</em></sup><em>b</em><sup><em>b</em></sup><em>c</em><sup><em>c</em></sup> ≥ <em>a</em><sup><em>b</em></sup><em>b</em><sup><em>c</em></sup><em>c</em><sup><em>a</em></sup>
 Handy trick for these kinds of problems: If there’s a lot of weird
-powers, try logs!. Since the function <em>l<strong>o</strong>g</em>(<em>x</em>) is increasing, we
+powers, try logs!. Since the function <em>log</em>(<em>x</em>) is increasing, we
 can take the logarithm of both sides without changing the inequality:
-<em>a<strong>l</strong>o**g</em>(<em>a</em>) + <em>b<strong>l</strong>o**g</em>(<em>b</em>) + <em>c<strong>l</strong>o**g</em>(<em>c</em>) ≥ <em>a<strong>l</strong>o**g</em>(<em>b</em>) + <em>b<strong>l</strong>o**g</em>(<em>c</em>) + <em>c<strong>l</strong>o**g</em>(<em>a</em>)
+<em>a</em>log(<em>a</em>) + <em>b</em>log(<em>b</em>) + <em>c</em>log(<em>c</em>) ≥ <em>a</em>log(<em>b</em>) + <em>b</em>log(<em>c</em>) + <em>c</em>log(<em>a</em>)
 (Simplified using log laws). But upon considering the two sequences
-<em>a</em>, <em>b</em>, <em>c</em> and <em>l<strong>o</strong>g</em>(<em>a</em>), <em>l<strong>o</strong>g</em>(<em>b</em>), <em>l<strong>o</strong>g</em>(<em>c</em>), and
-noting that <em>a</em> ≥ <em>b</em> ⟹ <em>l<strong>o</strong>g</em>(<em>a</em>) ≥ <em>l<strong>o</strong>g</em>(<em>b</em>), we find that,
+<em>a</em>, <em>b</em>, <em>c</em> and <em>log</em>(<em>a</em>), <em>log</em>(<em>b</em>), <em>log</em>(<em>c</em>), and
+noting that <em>a</em> ≥ <em>b</em> ⟹ log(<em>a</em>) ≥ log(<em>b</em>), we find that,
 by the rearrangement inequality, their products are maximised when
 sorted the same way, easily solving the question.</p><a href=#weirder-inequalities><h1 id=weirder-inequalities><span class=hanchor arialabel=Anchor># </span>Weirder inequalities</h1></a><p>The inequalities in this section are weirder, and while they are helpful
 in higher level olympiads (AMO Q4/8’s, EGMO, IMO), you’ll almost never
@@ -131,27 +128,27 @@ haven’t explained or provided example problems here, only their
 statement.</p><p><strong>Jensen’s inequality</strong>
 If the real numbers <em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>, &mldr;, <em>x</em><sub><em>n</em></sub> lie on an interval where some function <em>f</em>(<em>x</em>) is convex, then
 $$\frac{f(x_1) + f(x_2) + &mldr; + f(x_n)}{n} \geq f(\frac{x_1 + x_2 + &mldr; + x_n}{n})$$
-$$\text{and the inequality is reversed if $f(x)$ is concave on that interval.} \vspace{10pt}$$
+$$\text{and the inequality is reversed if $f(x)$ is concave on that interval.}$$
 <strong>Weighted Power Means</strong>
-$$\text{Given positive reals } x_1, x_2, &mldr;, x_n \text{ and weights } w_1, w_2, &mldr;, w_n, \text{ with sum $w$, define $M_r$ as } \vspace{-5pt}$$
-$$M_r = (\frac{w_1a_1^r+w_2a_2^r+&mldr;+w_na_n^r}{w})^{\frac{1}{r}} \text{ for all non-zero reals } r \text{ and } M_0 = \sqrt[w]{a_1^{w_1}a_2^{w_2}&mldr;a_n^{w_n}}. \vspace{-2pt}$$
+$$\text{Given positive reals } x_1, x_2, &mldr;, x_n \text{ and weights } w_1, w_2, &mldr;, w_n, \text{ with sum $w$, define $M_r$ as }$$
+$$M_r = (\frac{w_1a_1^r+w_2a_2^r+&mldr;+w_na_n^r}{w})^{\frac{1}{r}} \text{ for all non-zero reals } r \text{ and } M_0 = \sqrt[w]{a_1^{w_1}a_2^{w_2}&mldr;a_n^{w_n}}.$$
 Then, <em>M</em><sub><em>r</em></sub> ≥ <em>M</em><sub><em>s</em></sub> for <em>r</em> > <em>s</em>, with equality if and only if <em>a</em><sub>1</sub> = <em>a</em><sub>2</sub> = &mldr; = <em>a</em><sub><em>n</em></sub> or <em>w</em><sub>1</sub> = <em>w</em><sub>2</sub> = &mldr; = <em>w</em><sub><em>n</em></sub> = 0
-$$\text{Setting } w_1 = w_2 = &mldr; = w_n = 1 \text{ results in the original unweighted power means inequality.} \vspace{10pt}$$
+$$\text{Setting } w_1 = w_2 = &mldr; = w_n = 1 \text{ results in the original unweighted power means inequality.}$$
 <strong>Hölder’s inequality</strong>
-$$\text{Let } a_1, a_2, &mldr;, a_n \text{ and } b_1, b_2, &mldr;, b_n \text{ be two sets of non-negative reals. Let $p, q \in \mathbb{R}$ such that } \frac{1}{p} + \frac{1}{q} = 1. \vspace{-15pt}$$
-$$\text{Then, } (a_1^p + a_2^p + &mldr; + a_n^p)^{\frac{1}{p}}(b_1^q + b_2^q + &mldr; + b_n^q)^{\frac{1}{q}} \geq a_1b_1 + a_2b_2 + &mldr; + a_nb_n \vspace{10pt}$$
+$$\text{Let } a_1, a_2, &mldr;, a_n \text{ and } b_1, b_2, &mldr;, b_n \text{ be two sets of non-negative reals. Let $p, q \in \mathbb{R}$ such that } \frac{1}{p} + \frac{1}{q} = 1.$$
+$$\text{Then, } (a_1^p + a_2^p + &mldr; + a_n^p)^{\frac{1}{p}}(b_1^q + b_2^q + &mldr; + b_n^q)^{\frac{1}{q}} \geq a_1b_1 + a_2b_2 + &mldr; + a_nb_n $$
 <strong>Tangent-line trick:</strong>
-$$\text{Suppose we have reals } x_1, x_2, &mldr;, x_n \text{ that sum to $s$. Then, for some function} \vspace{-6pt}$$
-$$f(x) \geq ax + b \text{ for all $x$ and some constants $a,b$, we have } f(x_1) + f(x_2) + &mldr; f(x_n) \geq as + bn. \vspace{10pt}$$
+$$\text{Suppose we have reals } x_1, x_2, &mldr;, x_n \text{ that sum to $s$. Then, for some function}$$
+$$f(x) \geq ax + b \text{ for all $x$ and some constants $a,b$, we have } f(x_1) + f(x_2) + &mldr; f(x_n) \geq as + bn.$$
 <strong>Muirhead’s inequality:</strong> Very cool inequality but it will literally
 never be useful.
-$$\text{A sequences of reals } A = (a_1, a_2, &mldr;, a_n) \text{ is said to majorise another sequence } B = (b_1, b_2, &mldr;, b_n) \text{ if} \vspace{-8pt}$$
-$$a_1 \geq a_2 \geq &mldr; \geq a_n \text{ and } b_1 \geq b_2 \geq &mldr; \geq b_n \text{ and for all } 1 \leq i &lt; n, \text{ we have} \vspace{-3pt}$$
+$$\text{A sequences of reals } A = (a_1, a_2, &mldr;, a_n) \text{ is said to majorise another sequence } B = (b_1, b_2, &mldr;, b_n) \text{ if} $$
+$$a_1 \geq a_2 \geq &mldr; \geq a_n \text{ and } b_1 \geq b_2 \geq &mldr; \geq b_n \text{ and for all } 1 \leq i &lt; n, \text{ we have} $$
 <em>a</em><sub>1</sub> + <em>a</em><sub>2</sub> + &mldr; + <em>a</em><sub><em>i</em></sub> ≥ <em>b</em><sub>1</sub> + <em>b</em><sub>2</sub> + &mldr; + <em>b</em><sub><em>i</em></sub>,  along with <em>a</em><sub>1</sub> + <em>a</em><sub>2</sub> + &mldr; + <em>a</em><sub><em>n</em></sub> = <em>b</em><sub>1</sub> + <em>b</em><sub>2</sub> + &mldr; + <em>b</em><sub><em>n</em></sub>.
 So, Muirhead’s inequality says that if a sequence <em>A</em> majorises another sequence <em>B</em>, then we have:
-$$\sum_{sym} x_1^{a_1}x_2^{a_2} \cdots x_n^{a_n} \geq \sum_{sym} x_1^{b_1}x_2^{b_2} \cdots x_n^{b_n} \hspace{10pt} \text{ for any non-negative reals } x_1, x_2, &mldr;, x_n. \vspace{10pt}$$
+$$\sum_{sym} x_1^{a_1}x_2^{a_2} \cdots x_n^{a_n} \geq \sum_{sym} x_1^{b_1}x_2^{b_2} \cdots x_n^{b_n} \hspace{10pt} \text{ for any non-negative reals } x_1, x_2, &mldr;, x_n. $$
 <strong>Schur’s inequality:</strong> Also cool but probably useless.
-For all non-negative reals <em>a</em>, <em>b</em>, <em>c</em>, <em>r</em>,  we have: <em>a</em><sup><em>r</em></sup>(<em>a</em>−<em>b</em>)(<em>a</em>−<em>c</em>) + <em>b</em><sup><em>r</em></sup>(<em>b</em>−<em>a</em>)(<em>b</em>−<em>c</em>) + <em>c</em><sup><em>r</em></sup>(<em>c</em>−<em>a</em>)(<em>c</em>−<em>b</em>) ≥ 0</p><a href=#assorted-problems-to-try><h1 id=assorted-problems-to-try><span class=hanchor arialabel=Anchor># </span>Assorted problems to try</h1></a><p><em>Arranged in roughly increasing difficulty</em></p><p><strong>Problem 1:</strong> Find the minimum value of <em>a<strong>b</strong>c</em> given
+For all non-negative reals <em>a</em>, <em>b</em>, <em>c</em>, <em>r</em>,  we have: <em>a</em><sup><em>r</em></sup>(<em>a</em>−<em>b</em>)(<em>a</em>−<em>c</em>) + <em>b</em><sup><em>r</em></sup>(<em>b</em>−<em>a</em>)(<em>b</em>−<em>c</em>) + <em>c</em><sup><em>r</em></sup>(<em>c</em>−<em>a</em>)(<em>c</em>−<em>b</em>) ≥ 0</p><a href=#assorted-problems-to-try><h1 id=assorted-problems-to-try><span class=hanchor arialabel=Anchor># </span>Assorted problems to try</h1></a><p><em>Arranged in roughly increasing difficulty</em></p><p><strong>Problem 1:</strong> Find the minimum value of <em>abc</em> given
 <em>a</em> + 4<em>b</em> + 16<em>c</em> = 256</p><p><strong>Problem 2:</strong> Suppose
 <em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>, &mldr;, <em>x</em><sub><em>n</em></sub> are positive
 reals with product 1. Prove that</p><p>(1+<em>x</em><sub>1</sub>)(1+<em>x</em><sub>2</sub>)&mldr;(1+<em>x</em><sub><em>n</em></sub>) ≥ 2<sup><em>n</em></sup></p><p><strong>Problem 3:</strong> If <em>a</em>, <em>b</em>, <em>c</em> are positive reals, prove that
@@ -168,13 +165,12 @@ $$\frac{a+b+c}{3} \geq \sqrt{\frac{ab + bc + ac}{3}}$$</p><p><strong>Problem 9:<
 reals such that <em>a</em><sub>2</sub><em>a</em><sub>3</sub>&mldr;<em>a</em><sub><em>n</em></sub> = 1.
 Prove that</p><p>(1+<em>a</em><sub>2</sub>)<sup>2</sup>(1+<em>a</em><sub>3</sub>)<sup>3</sup>&mldr;(1+<em>a</em><sub><em>n</em></sub>)<sup><em>n</em></sup> > <em>n</em><sup><em>n</em></sup></p><p><strong>Problem 10:</strong> Let <em>a</em> ≥ <em>b</em> ≥ <em>c</em> ≥ <em>d</em> > 0 be reals so that
 <em>a</em> + <em>b</em> + <em>c</em> + <em>d</em> = 1. Prove that
-(<em>a</em>+2<em>b</em>+3<em>c</em>+4<em>d</em>)<em>a</em><sup><em>a</em></sup><em>b</em><sup><em>b</em></sup><em>c</em><sup><em>c</em></sup><em>d</em><sup><em>d</em></sup> &lt; 1</p><p><strong>ISL Time!</strong> These problems are from past IMO’s, and also IMO
-Shortlist. A few of these are A6-8’s i.e. the hardest problems proposed
+(<em>a</em>+2<em>b</em>+3<em>c</em>+4<em>d</em>)<em>a</em><sup><em>a</em></sup><em>b</em><sup><em>b</em></sup><em>c</em><sup><em>c</em></sup><em>d</em><sup><em>d</em></sup> &lt; 1</p><a href=#isl-time-these-problems-are-from-past-imos-and-also-imo><h2 id=isl-time-these-problems-are-from-past-imos-and-also-imo><span class=hanchor arialabel=Anchor># </span><strong>ISL Time!</strong> These problems are from past IMO’s, and also IMO</h2></a><p>Shortlist. A few of these are A6-8’s i.e. the hardest problems proposed
 for the IMO, and insanely difficult to solve. So don’t feel bad if you
 spend a month on one and can’t solve it. The last one is the legendary
 IMO 2021 Q2, which only had 16 solves and an average score of 0.375/7.
 Good luck!</p><p><strong>Problem 11:</strong> Prove that, for all positive reals <em>a</em>, <em>b</em>, <em>c</em>,
-(<em>a</em><sup>2</sup>+2)(<em>b</em><sup>2</sup>+2)(<em>c</em><sup>2</sup>+2) ≥ 9(<em>a**b</em>+<em>b**c</em>+<em>a**c</em>)</p><p><strong>Problem 12:</strong> Suppose <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> are non-negative reals with
+(<em>a</em><sup>2</sup>+2)(<em>b</em><sup>2</sup>+2)(<em>c</em><sup>2</sup>+2) ≥ 9(<em>ab</em>+<em>bc</em>+<em>ac</em>)</p><p><strong>Problem 12:</strong> Suppose <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> are non-negative reals with
 sum 4. Determine the minimal value of
 $$\frac{a}{b^3+4} + \frac{b}{c^3+4} + \frac{c}{d^3+4} + \frac{d}{a^3+4}$$</p><p><strong>Problem 13:</strong> Prove that for all positive reals <em>a</em>, <em>b</em>, <em>c</em>, <em>k</em>, we
 have
@@ -186,9 +182,9 @@ $$\sum_{i=1}^n \sum_{j=1}^n \text{min}(a_ia_j, b_ib_j) \leq \sum_{i=1}^n \sum_{j
 be reals such that <em>x</em><sub><em>i</em></sub> + <em>y</em><sub><em>i</em></sub> = 1 for all
 <em>i</em> ≤ <em>n</em>.</p><p>For any positive integer <em>m</em>, prove
 (1−<em>x</em><sub>1</sub><em>x</em><sub>2</sub>&mldr;<em>x</em><sub><em>n</em></sub>)<sup><em>m</em></sup> + (1−<em>y</em><sub>1</sub><sup><em>m</em></sup>)(1−<em>y</em><sub>2</sub><sup><em>m</em></sup>)&mldr;(1−<em>y</em><sub><em>n</em></sub><sup><em>m</em></sup>) ≥ 1</p><p><strong>Problem 16:</strong> Let <em>a</em>, <em>b</em>, <em>c</em> be positive reals such that
-<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> + <em>a<strong>b</strong>c</em> = 4.
+<em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> + <em>c</em><sup>2</sup> + <em>abc</em> = 4.
 Prove that
-0 ≤ <em>a**b</em> + <em>b**c</em> + <em>a**c</em> − <em>a<strong>b</strong>c</em> ≤ 2</p><p><strong>Problem 17:</strong> Let
+0 ≤ <em>ab</em> + <em>bc</em> + <em>ac</em> − <em>abc</em> ≤ 2</p><p><strong>Problem 17:</strong> Let
 <em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, &mldr;, <em>a</em><sub><em>n</em></sub> ∈ [1,2<sup><em>k</em></sup>]
 for some <em>n</em>, <em>k</em>. Prove that
 $$\sum_{i=1}^n \frac{a_i}{\sqrt{a_1^2 + &mldr; + a_i^2}} \leq 4\sqrt{kn}$$</p><p><strong>Problem 18:</strong> If <em>a</em>, <em>b</em>, <em>c</em>, <em>d</em> are non-negative reals with sum
