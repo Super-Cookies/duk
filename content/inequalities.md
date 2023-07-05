@@ -56,7 +56,7 @@ Upon dividing this by two, we get the original statement.
   
 We can now use the trivial inequality to prove a much more powerful
 inequality.  
-## **The AM-GM inequality:**
+### **The AM-GM inequality:**
 
 $$\\text{For any positive reals } a\_1, a\_2, ..., a\_n \\text{ we have } \\frac{a\_1 + a\_2 + ... + a\_n}{n} \\geq \\sqrt\[n\]{a\_1a\_2\\cdots a\_n}$$
 Ok, I lied a bit. While we can use the trivial inequality to prove it
@@ -88,7 +88,7 @@ stronger, generalised inequality.
 don’t need to memorise this for AMO or ASC - only the most important
 corollaries are required, which I will discuss after.  
 
-## **Power means inequality:**
+### **Power means inequality:**
 
 $$\\text{For some positive reals } a\_1, a\_2,...,a\_n, \\text{ define}$$
 
@@ -135,7 +135,7 @@ And multiplying by *n* yields the desired inequality. This inequality is
 also quite useful in it’s own right, so it’s definitely worth keeping in
 mind.
 
-## **Cauchy-Schwarz:** Another powerful inequality.
+### **Cauchy-Schwarz:** Another powerful inequality.
 $$\\text{For two sequences of real numbers } \\{ x\_1, x\_2, ..., x\_n\\} \\text{ and } \\{ y\_1, y\_2, ..., y\_n\\}, \\text{ we have }$$
 $$(x\_1^2 + x\_2^2 + ... + x\_n^2)(y\_1^2 + y\_2^2 + ... + y\_n^2) \\geq (x\_1y\_1 + x\_2y\_2 + ... + x\_ny\_n)^2 $$
 with equality if and only if there exists some constant *c* such that *y*<sub>*i*</sub> = *cx*<sub>*i*</sub> for all *i*.
@@ -158,7 +158,7 @@ $\\{ \\frac{1}{\\sqrt{x\_1}}, \\frac{1}{\\sqrt{x\_2}}, ..., \\frac{1}{\\sqrt{x\_
 yields
 $$(x\_1 + x\_2 + ... + x\_n)(\\frac{1}{x\_1} + \\frac{1}{x\_2} + ... + \\frac{1}{x\_n}) \\geq (\\frac{\\sqrt{x\_1}}{\\sqrt{x\_1}} + \\frac{\\sqrt{x\_2}}{\\sqrt{x\_2}} + ... + \\frac{\\sqrt{x\_n}}{\\sqrt{x\_n}})^2 = n^2$$
 
-## **Rearrangment inequality:** This is quite cool.
+### **Rearrangment inequality:** This is quite cool.
 $$\\text{If } a\_1 \\geq a\_2 \\geq ... \\geq a\_n \\text{ and } b\_1 \\geq b\_2 \\geq ... \\geq b\_n \\text{ are any two sequences of reals,}$$
 then for any permutation *β*<sub>1</sub>, *β*<sub>2</sub>, ..., *β*<sub>*n*</sub> of *b*<sub>1</sub>, *b*<sub>2</sub>, ..., *b*<sub>*n*</sub> we have the following inequality:
 *a*<sub>1</sub>*b*<sub>2</sub> + *a*<sub>2</sub>*b*<sub>2</sub> + ... + *a*<sub>*n*</sub>*b*<sub>*n*</sub> ≥ *a*<sub>1</sub>*β*<sub>1</sub> + *a*<sub>2</sub>*β*<sub>2</sub> + ... + *a*<sub>*n*</sub>*β*<sub>*n*</sub> ≥ *a*<sub>1</sub>*b*<sub>*n*</sub> + *a*<sub>2</sub>*b*<sub>*n* − 1</sub> + ... + *a*<sub>*n*</sub>*b*<sub>1</sub>
@@ -206,7 +206,7 @@ never be useful.
 $$\\text{A sequences of reals } A = (a\_1, a\_2, ..., a\_n) \\text{ is said to majorise another sequence } B = (b\_1, b\_2, ..., b\_n) \\text{ if} $$
 $$a\_1 \\geq a\_2 \\geq ... \\geq a\_n \\text{ and } b\_1 \\geq b\_2 \\geq ... \\geq b\_n \\text{ and for all } 1 \\leq i &lt; n, \\text{ we have} $$
 *a*<sub>1</sub> + *a*<sub>2</sub> + ... + *a*<sub>*i*</sub> ≥ *b*<sub>1</sub> + *b*<sub>2</sub> + ... + *b*<sub>*i*</sub>,  along with *a*<sub>1</sub> + *a*<sub>2</sub> + ... + *a*<sub>*n*</sub> = *b*<sub>1</sub> + *b*<sub>2</sub> + ... + *b*<sub>*n*</sub>.
-So, Muirhead’s inequality says that if a sequence *A* majorises another sequence *B*, then we have:
+So, Muirhead’s inequality says that if *A* majorises *B*, then we have:
 $$\\sum\_{sym} x\_1^{a\_1}x\_2^{a\_2} \\cdots x\_n^{a\_n} \\geq \\sum\_{sym} x\_1^{b\_1}x\_2^{b\_2} \\cdots x\_n^{b\_n} \\hspace{10pt} \\text{ for any non-negative reals } x\_1, x\_2, ..., x\_n. $$
 **Schur’s inequality:** Also cool but probably useless.
 For all non-negative reals *a*, *b*, *c*, *r*,  we have: *a*<sup>*r*</sup>(*a*−*b*)(*a*−*c*) + *b*<sup>*r*</sup>(*b*−*a*)(*b*−*c*) + *c*<sup>*r*</sup>(*c*−*a*)(*c*−*b*) ≥ 0
@@ -215,14 +215,11 @@ For all non-negative reals *a*, *b*, *c*, *r*,  we have: *a*<sup>*r*</
 
 *Arranged in roughly increasing difficulty*  
   
-**Problem 1:** Find the minimum value of *abc* given
-*a* + 4*b* + 16*c* = 256  
+**Problem 1:** Find the minimum value of *abc* given *a* + 4*b* + 16*c* = 256  
   
 **Problem 2:** Suppose
 *x*<sub>1</sub>, *x*<sub>2</sub>, ..., *x*<sub>*n*</sub> are positive
-reals with product 1. Prove that
-
-(1+*x*<sub>1</sub>)(1+*x*<sub>2</sub>)...(1+*x*<sub>*n*</sub>) ≥ 2<sup>*n*</sup>
+reals with product 1. Prove that (1+*x*<sub>1</sub>)(1+*x*<sub>2</sub>)...(1+*x*<sub>*n*</sub>) ≥ 2<sup>*n*</sup>
 
 **Problem 3:** If *a*, *b*, *c* are positive reals, prove that
 $\\frac{a}{b+c} + \\frac{b}{a+c} + \\frac{c}{a + b} \\geq \\frac{3}{2}$
@@ -248,22 +245,19 @@ $$\\frac{a+b+c}{3} \\geq \\sqrt{\\frac{ab + bc + ac}{3}}$$
 **Problem 9:** For *n* ≥ 3, let
 *a*<sub>2</sub>, *a*<sub>3</sub>, ..., *a*<sub>*n*</sub> be positive
 reals such that *a*<sub>2</sub>*a*<sub>3</sub>...*a*<sub>*n*</sub> = 1.
-Prove that
-
-(1+*a*<sub>2</sub>)<sup>2</sup>(1+*a*<sub>3</sub>)<sup>3</sup>...(1+*a*<sub>*n*</sub>)<sup>*n*</sup> &gt; *n*<sup>*n*</sup>
+Prove that (1+*a*<sub>2</sub>)<sup>2</sup>(1+*a*<sub>3</sub>)<sup>3</sup>...(1+*a*<sub>*n*</sub>)<sup>*n*</sup> &gt; *n*<sup>*n*</sup>
 
 **Problem 10:** Let *a* ≥ *b* ≥ *c* ≥ *d* &gt; 0 be reals so that
-*a* + *b* + *c* + *d* = 1. Prove that
-(*a*+2*b*+3*c*+4*d*)*a*<sup>*a*</sup>*b*<sup>*b*</sup>*c*<sup>*c*</sup>*d*<sup>*d*</sup> &lt; 1
+*a* + *b* + *c* + *d* = 1. Prove that (*a*+2*b*+3*c*+4*d*)*a*<sup>*a*</sup>*b*<sup>*b*</sup>*c*<sup>*c*</sup>*d*<sup>*d*</sup> &lt; 1
 
-## **ISL Time!** These problems are from past IMO’s, and also IMO
+### **ISL Time!** These problems are from past IMO’s, and also IMO
 Shortlist. A few of these are A6-8’s i.e. the hardest problems proposed
 for the IMO, and insanely difficult to solve. So don’t feel bad if you
 spend a month on one and can’t solve it. The last one is the legendary
 IMO 2021 Q2, which only had 16 solves and an average score of 0.375/7.
 Good luck!  
   
-**Problem 11:** Prove that, for all positive reals *a*, *b*, *c*,
+**Problem 11:** Prove that, for all positive reals *a*, *b*, *c*, we have
 (*a*<sup>2</sup>+2)(*b*<sup>2</sup>+2)(*c*<sup>2</sup>+2) ≥ 9(*ab*+*bc*+*ac*)
 
 **Problem 12:** Suppose *a*, *b*, *c*, *d* are non-negative reals with
@@ -282,15 +276,11 @@ $$\\sum\_{i=1}^n \\sum\_{j=1}^n \\text{min}(a\_ia\_j, b\_ib\_j) \\leq \\sum\_{i=
 **Problem 15:** Let
 *x*<sub>1</sub>, *x*<sub>2</sub>, ..., *x*<sub>*n*</sub>, *y*<sub>1</sub>, *y*<sub>2</sub>, ..., *y*<sub>*n*</sub> ∈ \[0,1\]
 be reals such that *x*<sub>*i*</sub> + *y*<sub>*i*</sub> = 1 for all
-*i* ≤ *n*.
-
-For any positive integer *m*, prove
-(1−*x*<sub>1</sub>*x*<sub>2</sub>...*x*<sub>*n*</sub>)<sup>*m*</sup> + (1−*y*<sub>1</sub><sup>*m*</sup>)(1−*y*<sub>2</sub><sup>*m*</sup>)...(1−*y*<sub>*n*</sub><sup>*m*</sup>) ≥ 1
+*i* ≤ *n*. For any positive integer *m*, prove (1−*x*<sub>1</sub>*x*<sub>2</sub>...*x*<sub>*n*</sub>)<sup>*m*</sup> + (1−*y*<sub>1</sub><sup>*m*</sup>)(1−*y*<sub>2</sub><sup>*m*</sup>)...(1−*y*<sub>*n*</sub><sup>*m*</sup>) ≥ 1
 
 **Problem 16:** Let *a*, *b*, *c* be positive reals such that
 *a*<sup>2</sup> + *b*<sup>2</sup> + *c*<sup>2</sup> + *abc* = 4.
-Prove that
-0 ≤ *ab* + *bc* + *ac* − *abc* ≤ 2
+Prove that 0 ≤ *ab* + *bc* + *ac* − *abc* ≤ 2
 
 **Problem 17:** Let
 *a*<sub>1</sub>, *a*<sub>2</sub>, ..., *a*<sub>*n*</sub> ∈ \[1,2<sup>*k*</sup>\]
